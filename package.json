@@ -5,5 +5,8 @@
     "mongoose": "^5.2.13",
     "youtube-search": "^1.1.1"
   },
+  "scripts": {
+  "start": "node server.js"
+},
   "version": ""
 }
