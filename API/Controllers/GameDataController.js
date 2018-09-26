@@ -22,13 +22,17 @@ exports.processRequest = function(req, res) {
     {
       
       let txt1 = req.body.result.resolvedQuery;
+      var res1 = txt1.substring(3);
       var opts = {
       maxResults: 1,
       key: 'AIzaSyAtFX5BwBuUE-xh0HBIHiDwb24lzBjqQQU'
     };
     let srchRes = 'test';
+    console.dir(txt1);
+    console.dir(res1);
+
  
-search(txt1, opts, function(err, results) {
+search(res1, opts, function(err, results) {
   //var data1 = JSON.parse(results);
   //srchRes = data1.link;
   for (const result of results) {
