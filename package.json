@@ -1,7 +1,7 @@
 {
   "name": "",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mongoose": "^5.2.13",
     "youtube-search": "^1.1.1"
   },
